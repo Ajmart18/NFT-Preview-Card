@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: hsl(216, 50%, 16%);
+    width: 345px;
+    height: auto;
+    padding: 25px;
+    border-radius: 20px; 
+}
+
+.title {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.information {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    opacity: 70%;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.eth-info,
+.clock-info {
+    display: flex;
+    align-items: center;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.ethereum, 
+.clock {
+    margin-right: 5px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.days {
+    font-weight: 600;
+    color: hsl(215, 51%, 70%);
+    opacity: 70%;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.profile {
+    width: 20%;
+    border: hsl(0, 0%, 100%) 1px solid;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info {
+    color: hsl(215, 51%, 70%);
+    opacity: 70%;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.profile-link:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.nft-card {
+    position: relative;
+}
+
+.container-eye {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.eye {
+    position: relative;
+    width: 50px;
+    top: 120px;
+    left: 125px;
+    opacity: 0%;
+}
+
+.container-eye:hover {
+    background: hsla(178, 100%, 50%, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.eye:hover {
+    opacity: 100%;
+}
+
+
+
+
+
+
+
